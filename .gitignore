@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment files
+.env
+.env.local
+
+# Byte-compiled files
+*.pyc
+
+# Demo and test files
+demo_*.py
+test_*.py
+!tests/test_*.py
+
+# Documentation extras
+*.md
+!README.md
+
+# Misc
+.DS_Store
+*.log
